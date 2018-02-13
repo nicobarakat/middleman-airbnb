@@ -2,14 +2,70 @@
 title: Le Wagon - Middleman
 ---
 
+
+
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/buenosaires.jpg');">
+      <div class="banner-content">
+        <h1>Welcome home</h1>
+        <p>Book unique homes and experience a city like a local.</p>
+        <form action="#" class="form-inline">
+          <input type="text" class="form-control" placeholder="Where?">
+          <input type="text" class="form-control" placeholder="When?">
+          <select class="form-control">
+            <option value="1">1 guest </option>
+            <option value="1">2 guests </option>
+            <option value="1">3 guests </option>
+          </select>
+          <input type="submit" class="btn btn-primary btn-lg" value="Search">
+        </form>
+      </div>
+    </div>
   </div>
 </div>
+
+
+
+
+<div class="container">
+  <h2> Recent flats </h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/geneva.jpg');">
+          <div class="card-category">Geneva, Switzerland</div>
+          <div class="card-description">
+            <h2>Nicolas's home</h2>
+            <p>Charming room in downtown</p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+          <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/newyork.jpg');">
+            <div class="card-category">NY, United States</div>
+            <div class="card-description">
+              <h2>Owen's home</h2>
+              <p>Luxurius flat in Manhattan</p>
+            </div>
+            <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+            <a class="card-link" href="#" ></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <!-- insert <div class="card"> -->
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/roma.jpg');">
+              <div class="card-category">Roma, Italy</div>
+              <div class="card-description">
+                <h2>Alex's home</h2>
+                <p>Amazing flat close to the Colosseum</p>
+              </div>
+              <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+              <a class="card-link" href="#" ></a>
+            </div>
+          </div>
+        </div>
+      </div>

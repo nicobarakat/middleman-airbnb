@@ -1,5 +1,5 @@
 #home {
-  background-color: #D23333;
+  width: 100%;
   color: white;
   height: 100vh;
   display: flex;
@@ -13,5 +13,9 @@
     color: rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 16px;
+  }
+
+  .home-content {
+    width: 100%;
   }
 }
